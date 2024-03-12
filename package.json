@@ -1,20 +1,20 @@
 {
-    "name": "front-end-interview",
-    "version": "1.0.0",
-    "private": true,
-    "prettier": "@yutengjing/prettier-config",
-    "scripts": {
-        "dev": "rspress dev",
-        "build": "rspress build",
-        "preview": "rspress preview",
-        "format": "prettier --write ."
-    },
-    "dependencies": {
-        "rspress": "^1.0.0"
-    },
-    "devDependencies": {
-        "@types/node": "^16",
-        "@yutengjing/prettier-config": "^1.1.2",
-        "prettier": "^3.2.5"
-    }
+  "name": "front-end-interview",
+  "version": "1.0.0",
+  "private": true,
+  "prettier": "@yutengjing/prettier-config",
+  "scripts": {
+    "dev": "rspress dev",
+    "build": "rspress build",
+    "preview": "rspress preview",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "rspress": "^1.14.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.8",
+    "@yutengjing/prettier-config": "^1.1.2",
+    "prettier": "^3.2.5"
+  }
 }
